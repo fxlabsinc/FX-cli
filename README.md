@@ -49,7 +49,7 @@ Use a version of FX-cli that is the same version as your FX-Cloud or FX-On-Premi
    java -jar Fx-cli.jar
    ```
    
-   This is what you see if the FX-cli comes up fine.
+   ### This is what you see if the FX-cli comes up fine.
    ```
    $ ./FX-cli.jar
    Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
@@ -64,7 +64,7 @@ Use a version of FX-cli that is the same version as your FX-Cloud or FX-On-Premi
    FX-cli >
    ```
    
-   This is what you see if the FX-cli fails to start.
+   ### This is what you see if the FX-cli fails to start.
    ```
    $ ./FX-cli.jar
    Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
@@ -91,6 +91,23 @@ Use a version of FX-cli that is the same version as your FX-Cloud or FX-On-Premi
    fx_password=mypassword
    ```
    
+   ### fx.properties
+   FX-cli requires a fx.properties file in one of these location. FX-cli uses this file to connect to the FX-Cloud (https://cloud.fxlabs.io) or FX-On-premises instance.
+   
+   #### fx.properties locations
+   ```
+   /opt/fx/fx.properties
+   /var/fx/fx.properties
+   C:\opt\fx\fx.properties
+   ${user.home}/fx/fx.properties
+   ```
+   
+   #### fx.properties content
+   ```
+   fx_url=https://cloud.fxlabs.io
+   fx_username=me@company.com
+   fx_password=mypassword
+   ```
    
    ### FX-cli has 2 commands.
    
