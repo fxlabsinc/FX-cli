@@ -40,5 +40,20 @@ Use a version of FX-cli that is the same version as your FX-Cloud or FX-On-Premi
 
 ## Documentation
 
+   ### Run FX-cli 
+   ```
+   ./Fx-cli.jar
+   ```
+   or
+   ```
+   java -jar Fx-cli.jar
+   ```
+
+   ### FX-cli has 2 commands.
+   
+   ##### run command
+   
+   ##### gen command
+
 ## Demo
 
