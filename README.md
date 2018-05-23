@@ -63,6 +63,35 @@ Use a version of FX-cli that is the same version as your FX-Cloud or FX-On-Premi
    Welcome Admin!
    FX-cli >
    ```
+   
+   This is what you see if the FX-cli fails to start.
+   ```
+   $ ./FX-cli.jar
+   Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
+    _______  __   _          _
+   |  ___\ \/ /  | |    __ _| |__  ___
+   | |_   \  /   | |   / _` | '_ \/ __|
+   |  _|  /  \   | |__| (_| | |_) \__ \
+   |_|   /_/\_\  |_____\__,_|_.__/|___/
+
+   Reading credentials from fx.properties
+   2018-05-23 16:45:51.948  WARN 30021 --- [           main] com.fxlabs.fxt.cli.FxCommands            : URI is not absolute
+   Login failed!
+
+   FX-CLI will try to read login credentials from the following locations
+   fx.properties
+   /opt/fx/fx.properties
+   /var/fx/fx.properties
+   C:\opt\fx\fx.properties
+   ${user.home}/fx/fx.properties
+
+   e.g. file content
+   fx_url=https://cloud.fxlabs.io
+   fx_username=me@company.com
+   fx_password=mypassword
+   ```
+   
+   
    ### FX-cli has 2 commands.
    
    ##### run command
