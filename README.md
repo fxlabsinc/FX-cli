@@ -48,7 +48,21 @@ Use a version of FX-cli that is the same version as your FX-Cloud or FX-On-Premi
    ```
    java -jar Fx-cli.jar
    ```
+   
+   This is what you see if the FX-cli comes up fine.
+   ```
+   $ ./FX-cli.jar
+   Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
+    _______  __   _          _
+   |  ___\ \/ /  | |    __ _| |__  ___
+   | |_   \  /   | |   / _` | '_ \/ __|
+   |  _|  /  \   | |__| (_| | |_) \__ \
+   |_|   /_/\_\  |_____\__,_|_.__/|___/
 
+   Reading credentials from fx.properties
+   Welcome Admin!
+   FX-cli >
+   ```
    ### FX-cli has 2 commands.
    
    ##### run command
