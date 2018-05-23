@@ -8,12 +8,34 @@ FX-cli improves productivity when you're writing new tests and constantly making
 Use a version of FX-cli that is the same version as your FX-Cloud or FX-On-Premises. Using an older FX-cli with a newer server might produce errors.
 
 
+## Install on MacOS
+   > FX-cli requires Java 8 minimum. You can download from [here](https://java.com/en/download/)
+   Download FX-cli from [here](https://github.com/fxlabsinc/FX-cli/)
+   
+   Run FX-cli 
+   ```
+   ./Fx-cli.jar
+   ```
+
+## Install on Linux
+   > FX-cli requires Java 8 minimum. You can download from [here](https://java.com/en/download/)
+   Download FX-cli from [here](https://github.com/fxlabsinc/FX-cli/)
+
+   Run FX-cli 
+   ```
+   ./Fx-cli.jar
+   ```
+
+## Install on Windows
+   > FX-cli requires Java 8 minimum. You can download from [here](https://java.com/en/download/)
+   Download FX-cli from [here](https://github.com/fxlabsinc/FX-cli/)
+
+   Run FX-cli 
+   ```
+   java -jar Fx-cli.jar
+   ```
+
 ## Documentation
 
 ## Demo
 
-## Install on MacOS
-
-## Install on Linux
-
-## Install on Windows
