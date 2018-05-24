@@ -260,6 +260,17 @@ Use a version of FX-cli that is the same version as your FX-Cloud or FX-On-Premi
    ```
    
    ##### gen command examples
+   
+   Auto generates quality and security coverage test-suites for Open API spec
+   
+   > OpenAPI Spec URL or file e.g. http://ip/v2/api-docs or myapp-spec.json
+   
+   > Dirctory for writing generated test-suite files e.g. C:\MyApp or /opt/MyAppTest or C:\MyApp\test-suites
+   
+   ```
+   FX-cli > gen -h http://localhost:8080/v2/api-docs -d /tmp/MyApp
+   api_v1_accounts_get_anonymous_invalid                                            [Writing]
+   ```
 
 ## Demo
 
