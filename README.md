@@ -11,7 +11,7 @@ Use a version of FX-cli that is the same version as your FX-Cloud or FX-On-Premi
 ## Install on MacOS
    > FX-cli requires Java 8 minimum. You can download it from [here](https://java.com/en/download/)
    
-   Download FX-cli from [here](https://github.com/fxlabsinc/FX-cli/)
+   Download FX-cli from [here](https://github.com/fxlabsinc/FX-cli/raw/master/bin/FX-cli.jar)
    
    Run FX-cli 
    ```
@@ -21,7 +21,7 @@ Use a version of FX-cli that is the same version as your FX-Cloud or FX-On-Premi
 ## Install on Linux
    > FX-cli requires Java 8 minimum. You can download it from [here](https://java.com/en/download/)
    
-   Download FX-cli from [here](https://github.com/fxlabsinc/FX-cli/)
+   Download FX-cli from [here](https://github.com/fxlabsinc/FX-cli/raw/master/bin/FX-cli.jar)
 
    Run FX-cli 
    ```
@@ -31,7 +31,7 @@ Use a version of FX-cli that is the same version as your FX-Cloud or FX-On-Premi
 ## Install on Windows
    > FX-cli requires Java 8 minimum. You can download it from [here](https://java.com/en/download/)
    
-   Download FX-cli from [here](https://github.com/fxlabsinc/FX-cli/)
+   Download FX-cli from [here](https://github.com/fxlabsinc/FX-cli/raw/master/bin/FX-cli.jar)
 
    Run FX-cli 
    ```
