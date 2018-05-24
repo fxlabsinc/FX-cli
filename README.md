@@ -237,9 +237,26 @@ Use a version of FX-cli that is the same version as your FX-Cloud or FX-On-Premi
    
    > Suites is optional, you can use this property to run one or more test suites e.g. -s vault_params.negative_2.
 
+   > Environment value can be overriden as well e.g. -e Local.
+   
+   > Tags value can also be set or overriden for the Job e.g. -t V1,V2
+   
+   > Region value can also be overriden for the Job e.g. -r FXLabs/US_WEST_1 or FXLabs/DevMachine1
+   
    > Directory value should point to your test project e.g. -d /opt/My-Test.
+   
    ```
    run -p FXLabs/MyApp -j Local -s vault_params_negative_2 -d /opt/My-Test
+
+   run -p FXLabs/MyApp -d /opt/My-Test
+   
+   run -p FXLabs/MyApp -j Local -s vault_params_negative_2,vault_params_negative_2 -d /opt/My-Test
+
+   run -p FXLabs/MyApp -j Local -e Local -s vault_params_negative_2,vault_params_negative_2 -d /opt/My-Test   
+   
+   run -p FXLabs/MyApp -j Local -e Local -t V1,V2 -s vault_params_negative_2,vault_params_negative_2 -d /opt/My-Test   
+   
+   run -p FXLabs/MyApp -j Local -e Local -t V1,V2 -s vault_params_negative_2,vault_params_negative_2 -r FXLabs/US_WEST_1 -d /opt/My-Test      
    ```
    
    ##### gen command examples
