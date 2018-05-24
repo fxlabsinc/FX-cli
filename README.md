@@ -109,7 +109,120 @@ Use a version of FX-cli that is the same version as your FX-Cloud or FX-On-Premi
    fx_password=mypassword
    ```
    
-   ### FX-cli has 2 commands.
+   ### FX-cli has 2 commands (run & gen).
+   
+   ### help command
+   ```
+   FX-cli > help
+   AVAILABLE COMMANDS
+
+   Built-In Commands
+           clear: Clear the shell screen.
+           exit, quit: Exit the shell.
+           help: Display help about available commands.
+           script: Read and execute commands from a file.
+           stacktrace: Display the full stacktrace of the last error.
+
+   Fx Commands
+           gen: Auto generates quality and security coverage test-suites for Open API spec
+           run: Executes job
+
+   ```
+   
+   ### clear command (clears screen)
+   
+   ### exit command (exits FX-cli)
+   
+   ### help command
+   ```
+   FX-cli > help
+   AVAILABLE COMMANDS
+
+   Built-In Commands
+           clear: Clear the shell screen.
+           exit, quit: Exit the shell.
+           help: Display help about available commands.
+           script: Read and execute commands from a file.
+           stacktrace: Display the full stacktrace of the last error.
+
+   Fx Commands
+           gen: Auto generates quality and security coverage test-suites for Open API spec
+           run: Executes job
+
+   ```
+   
+   > help 'gen' command
+   ```
+   FX-cli > help gen
+
+
+   NAME
+      gen - Auto generates quality and security coverage test-suites for Open API spec
+
+   SYNOPSYS
+      gen [-h] string  [-d] string  [[-k] string]  [[-v] string]
+
+   OPTIONS
+      -h or --url  string
+         OpenAPI URL e.g. http://ip/v2/api-docs or myapp-spec.json
+         [Mandatory]
+         [size must be between 1 and 2147483647]
+
+      -d or --dir  string
+         Stub generation directory e.g. C:\MyApp or /opt/MyAppTest or C:\MyApp\test-suites
+         [Mandatory]
+
+      -k or --auth-header-key  string
+         Authorization header key e.g. 'Authorization'
+         [Optional, default = ]
+
+      -v or --auth-header-val  string
+         Authorization header value e.g. 'my-passowrd'
+         [Optional, default = ]
+
+   ```
+   
+   > help 'run' command
+   ```
+   FX-cli > help run
+
+
+   NAME
+      run - Executes job
+
+   SYNOPSYS
+      run [-p] string  [[-d] string]  [[-j] string]  [[-r] string]  [[-t] string]  [[-e] string]  [[-s] string]
+
+   OPTIONS
+      -p or --project  string
+         Project name e.g. org/project-name or FxLabs/Common
+         [Mandatory]
+         [size must be between 3 and 2147483647]
+
+      -d or --dir  string
+         Project directory path e.g. /opt/Project1 or C:/Project1
+         [Optional, default = ]
+
+      -j or --job  string
+         Job name from Fxfile.yaml e.g. Stg or Dev etc
+         [Optional, default = Default]
+
+      -r or --region  string
+         Override bot region for the job e.g. org/region or FxLabs/US_WEST_1
+         [Optional, default = ]
+
+      -t or --tags  string
+         Override tags e.g. V1,V2
+         [Optional, default = ]
+
+      -e or --env  string
+         Override env for the job e.g. Stg or Dev etc
+         [Optional, default = ]
+
+      -s or --suites  string
+         Comma separated test-suite names
+         [Optional, default = ]
+   ```
    
    ##### run command
    
