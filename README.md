@@ -230,9 +230,16 @@ Use a version of FX-cli that is the same version as your FX-Cloud or FX-On-Premi
          [Optional, default = ]
    ```
    
-   ##### run command
+   ##### run command examples
+   > project value should match the project name on FX-Cloud UI and is mandatory e.g -p FXLabs/MyApp.
+   > job value should match the job name in the FXfile.yaml. e.g. -j Default or -j Local etc.
+   > suites is optional, you can use this property to run one or more test suites e.g. -s vault_params.negative_2
+   > directory value should point to your test project e.g. -d /opt/My-Test
+   ```
+   run -p FXLabs/MyApp -j Local -s vault_params_negative_2 -d /opt/My-Test
+   ```
    
-   ##### gen command
+   ##### gen command examples
 
 ## Demo
 
