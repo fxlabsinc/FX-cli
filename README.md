@@ -130,8 +130,14 @@ Use a version of FX-cli that is the same version as your FX-Cloud or FX-On-Premi
    ```
    
    ### clear command (clears screen)
+   ``` 
+   FX-cli > clear 
+   ```
    
    ### exit command (exits FX-cli)
+   ```
+   FX-cli > exit
+   ```
    
    ### help command
    ```
